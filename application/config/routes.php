@@ -59,3 +59,9 @@ $route['admin/prospek'] = 'admin/prospek';
 $route['admin/customer'] = 'admin/customer';
 $route['admin/agen'] = 'admin/agen';
 $route['admin/video-promosi'] = 'admin/video_promosi';
+
+//Authentication
+$route['login'] = 'auth/login';
+
+//Api
+$route['api/login'] = 'api/login';
