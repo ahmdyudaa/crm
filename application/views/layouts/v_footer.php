@@ -11,7 +11,7 @@
             </footer>
         </div>
     </div>
-    <script src="<?= base_url(); ?>public/dist/assets/extensions/jquery/jquery.min.js"></script>
+    
     <script>
             $(function(){
                 loadDashboard();

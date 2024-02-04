@@ -7,6 +7,6 @@ class App extends CI_Controller {
 	{
         $data['current_uri'] = $this->uri->uri_string();
         $data['title'] = 'Dashboard';
-        $this->load->view('pages/v_admin', $data); 
+        $this->load->view('root/v_app', $data); 
 	}
 }
